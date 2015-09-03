@@ -1,7 +1,17 @@
-$body-bg:	#FFFCC1;
-$navbar-default-bg: #B2CD0C;
-$navbar-default-link-color: #FFFFFF;
-$brand-primary: #B2CD0C;
-$jumbotron-bg: #E7D461;
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+$body-bg:											#FFFCC1;
+$font-family-sans-serif:			'Shadows Into Light', cursive;
+$navbar-height:								45px;
+$navbar-default-bg:						#B2CD0C;
+$navbar-default-brand-color:	#517700;
+$navbar-default-link-color:		#FFFFFF;
+$brand-primary: 							#B2CD0C;
+$jumbotron-bg:								#E7D461;
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
