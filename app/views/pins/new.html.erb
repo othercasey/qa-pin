@@ -1,5 +1,13 @@
-<h1>New Pin</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', pins_path %>
+<div class="row">
+	<div class="panel panel-default">
+		<div class="panel-heading center">
+      <h1>Add a new Luna picture</h1>
+		</div>
+		<div class="panel-body">
+      <%= render 'form' %>
+    </div>
+  </div>
+</div>
+<%= link_to pins_path do %>
+	<i class="fa fa-arrow-circle-o-left"></i> Back
+<% end %>

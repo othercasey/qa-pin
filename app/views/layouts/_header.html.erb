@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
         <%= link_to root_path, class: "navbar-brand" do %>
-          <span class="glyphicon glyphicon-leaf"></span> Post-It Barf
+          <i class="fa fa-heart-o"></i><i class="fa fa-moon-o"></i><i class="fa fa-paw"></i> LunaTickles
         <% end %>
     </div>
 
@@ -18,23 +18,23 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
           <%= link_to about_path do %>
-              <span class="glyphicon glyphicon-question-sign"></span> About
+              <i class="fa fa-question"></i><i class="fa fa-question"></i> About <i class="fa fa-question"></i><i class="fa fa-question"></i>
           <% end %>
         </li> 
         <% if user_signed_in? %>
           <li>
             <%= link_to new_pin_path do %>
-              <span class="glyphicon glyphicon-heart-empty"></span> New Pin
+              <i class="fa fa-diamond"></i> New Pic
             <% end %>
           </li>
           <li>
             <%= link_to edit_user_registration_path do %>
-              <span class="glyphicon glyphicon-stats"></span> Settings
+              <i class="fa fa-bar-chart"></i> Login Settings
             <% end %>
           </li>
           <li>
             <%= link_to destroy_user_session_path, method: :delete do %>
-              <span class="glyphicon glyphicon-send"></span> Bye!
+              <i class="fa fa-rocket"></i> Bye Thomas!
             <% end %>
           </li> 
         <% end %>

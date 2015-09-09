@@ -1,17 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 
-$body-bg:											#FFFCC1;
-$font-family-sans-serif:			'Shadows Into Light', cursive;
+$body-bg:											#F4F2F3; //page background color
+$font-family-sans-serif:			'Quicksand', sans-serif;
 $navbar-height:								45px;
-$navbar-default-bg:						#B2CD0C;
-$navbar-default-brand-color:	#517700;
-$navbar-default-link-color:		#FFFFFF;
-$brand-primary: 							#B2CD0C;
-$jumbotron-bg:								#E7D461;
+$navbar-default-bg:						#F770B5; //navbar background
+$navbar-default-brand-color:	#545454; //navbar brand link color
+$navbar-default-link-color:		#FFFFFF; //navbar regular link color
+$brand-primary: 							#F04B9F; //Navbar & jumbotron fancy button color
+$brand-default:								#F4F2F3; //background color
+$jumbotron-bg:								#F770B5; //Jumbotron bg color
+$text-color:									#545454; //font color
+$btn-warning-bg:							#F770B5; //Cancel my account button bg color
+$btn-default-bg: 							#F4F2F3; //Login button background color
+$link-color: 									#F04B9F; //link color
+$btn-default-color: 					#545454; //login button link color
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 .center {
      text-align: center;
